@@ -1,0 +1,14 @@
+{
+  "name": "sales-data-analysis-system",
+  "version": "1.0.0",
+  "description": "Full-stack Business Intelligence Web Application for Sales, Customer, and Product Analytics (Retail & Textile Industry)",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "start:backend": "npm --prefix backend start",
+    "start:frontend": "npm --prefix frontend start",
+    "seed": "npm --prefix backend run seed",
+    "migrate": "npm --prefix backend run migrate",
+    "test:api": "node backend/test_api.js"
+  }
+}
